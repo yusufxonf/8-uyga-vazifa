@@ -1,0 +1,423 @@
+@font-face {
+    font-family: bold;
+    src: url("SpaceMono-Bold.ttf");
+}
+
+@font-face {
+    font-family: lexn;
+    src: url("LexendDeca-VariableFont_wght.ttf");
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+
+    header {
+        width: 1440px;
+        height: 96px;
+        position: relative;
+
+        .header_dev {
+            width: 1106px;
+            height: 53px;
+            position: absolute;
+            top: 22px;
+            left: 60px;
+
+            .logo {
+                width: 107.82px;
+                height: 28.56px;
+                cursor: pointer;
+                position: absolute;
+                top: 34px;
+                left: 169px;
+
+
+            }
+
+            .abaut {
+                width: 46px;
+                height: 25px;
+                color: #939CAA;
+                position: absolute;
+                top: 36px;
+                left: 335px;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 25px;
+                font-family: bold;
+                transition: .5s;
+
+                &:hover {
+                    color: #000000;
+                    cursor: pointer;
+                }
+            }
+
+            .loc {
+                width: 74px;
+                height: 25px;
+                top: 36px;
+                left: 413px;
+                position: absolute;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 25px;
+                color: #939CAA;
+                font-family: bold;
+                transition: .5s;
+
+                &:hover {
+                    color: #000000;
+                    cursor: pointer;
+                }
+
+
+            }
+
+            .car {
+                width: 65px;
+                height: 25px;
+                left: 184px;
+                position: absolute;
+                top: 36px;
+                left: 519px;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 25px;
+                color: #939CAA;
+                transition: .5s;
+                font-family: bold;
+
+                &:hover {
+                    color: #000000;
+                    cursor: pointer;
+                }
+
+
+            }
+
+            .bt>button {
+                width: 180px;
+                height: 53px;
+
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 25px;
+                position: absolute;
+                color: white;
+                top: 22px;
+                left: 888px;
+                border: 2px solid #FCB72B;
+                background-color: #FCB72B;
+                font-family: bold;
+                transition: .5s;
+
+                &:hover {
+
+                    border: 2px solid #FCB72B;
+                    background-color: transparent;
+                    color: #000000;
+                    cursor: pointer;
+                }
+
+
+
+            }
+
+
+        }
+
+    }
+
+    main {
+        width: 1440px;
+        position: relative;
+        top: 46px;
+
+        .main_img {
+            width: 1440px;
+            position: absolute;
+            height: 650px;
+
+
+        }
+
+        .main_tex {
+            width: 600px;
+            height: 112px;
+            top: 249px;
+            left: 165px;
+            position: absolute;
+            color: #FFFFFF;
+            font-family: bold;
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 56px;
+
+
+        }
+
+        .main_tex2 {
+            width: 405px;
+            height: 100px;
+            position: absolute;
+            top: 401px;
+            left: 260px;
+            font-size: 15px;
+            color: white;
+            font-family: lexn;
+            font-weight: 400;
+            line-height: 25px;
+
+
+
+
+        }
+
+        .tex_chiziq1 {
+            width: 203px;
+            height: 15px;
+            top: 450px;
+            border: 15px;
+            position: absolute;
+            background: #FCB72B;
+
+
+        }
+
+        .tex_chiziq2>img {
+            width: 447px;
+            height: 138px;
+            position: absolute;
+            top: 445px;
+            left: 705px;
+            border: 15px;
+
+
+        }
+
+        button {
+            width: 180px;
+            height: 53px;
+
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 25px;
+            position: absolute;
+            color: white;
+            top: 545px;
+            left: 260px;
+            border: 2px solid #FCB72B;
+            background-color: #FCB72B;
+            font-family: bold;
+            transition: .5s;
+
+            &:hover {
+                width: 180px;
+                height: 53px;
+                border: 2px solid #FCB72B;
+                background-color: transparent;
+                color: #ffffff;
+                cursor: pointer;
+            }
+
+
+
+
+        }
+
+        .div {
+            width: 1275px;
+            height: 291px;
+            top: -88px;
+            position: absolute;
+
+            .img1 {
+                width: 974px;
+                height: 10px;
+                position: absolute;
+
+                top: 954px;
+
+
+
+            }
+
+            .img2 {
+                width: 38.38px;
+                height: 47.97px;
+                position: absolute;
+                top: 910px;
+                left: 194.01px;
+
+            }
+
+            .img3 {
+                width: 96px;
+                height: 96px;
+                position: absolute;
+                top: 906px;
+                left: 545px;
+
+            }
+
+            .img4 {
+                width: 96px;
+                height: 96px;
+                position: absolute;
+                top: 906px;
+                left: 925px;
+
+
+            }
+
+            .teks {
+                width: 350px;
+                height: 28px;
+                top: 1042px;
+                left: 165px;
+                position: absolute;
+                color:  #495567;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+                font-family: bold;
+
+
+
+            }
+
+            .teks2 {
+                width: 350px;
+                height: 100px;
+                top: 1097px;
+                left: 165px;
+                position: absolute;
+                font-size: 15px;
+                font-weight: 350;
+                line-height: 25px;
+                font-family: lexn;
+                color: #939CAA;
+
+
+
+
+            }
+            .teks3{
+                width: 350px;
+                height: 28px;
+                top: 1042px;
+                left: 545px;
+                position: absolute;
+                color:  #495567;
+                font-size: 24px;
+                font-weight: 700;
+                font-family: bold;
+                line-height: 28px;
+              
+                                
+            }
+            .teks4{
+                width: 350px;
+                height: 100px;
+                top: 1097px;
+                left: 545px;
+               position: absolute;
+                font-size: 15px;
+                font-weight: 350;
+                line-height: 25px;
+                color:  #939CAA;
+                font-family: lexn;
+              
+                
+                
+            }
+            .teks5{
+                width: 350px;
+                height: 28px;
+                top: 1042px;
+                left: 925px;
+                position: absolute;
+                color:   #495567;
+                font-family: bold;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28px;
+             
+                
+                
+            }
+            .teks6{
+                width: 350px;
+                height: 100px;
+                top: 1097px;
+                left: 925px ;
+               position: absolute;
+                font-size: 15px;
+                font-weight: 350;
+                line-height: 25px;
+                font-family: lexn;
+                color:  #939CAA;
+               
+                
+                
+                
+            }
+            .easy{
+                width: 475px;
+                height: 96px;
+                top: 1463px;
+                left: 165px;
+                position: absolute;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                color: #495567;
+                font-family: bold;
+               
+             
+                                
+            }
+            .easy2{
+                width: 445px;
+                height: 100px;
+                top: 1583px;
+                left: 165px;
+                position: absolute;
+                color:#939CAA; 
+                font-family: lexn;
+                font-size: 15px;
+                font-weight:350;
+                line-height: 25px;
+               
+                
+                
+            }
+            .easy-img{
+                width: 1079px;
+                height: 445px;
+                position: absolute;
+                top: 1397px;
+                left: 705px;
+                
+            }
+            .rasm{
+                width: 800px;
+                height: 445px;
+                position: absolute;
+                background-color: #ffffff;
+                top: 1397px;
+                left: 1470px;
+                
+            }
+
+        }
+
+    }
+
+
+
+
+}

@@ -1,0 +1,322 @@
+@font-face {
+  font-family: bold;
+  src: url("../fontlar/SpaceMono-Bold.ttf");
+}
+@font-face {
+  font-family: lexn;
+  src: url("../fontlar/LexendDeca-VariableFont_wght.ttf");
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container header {
+  width: 1440px;
+  height: 96px;
+  position: relative;
+}
+.container header .header_dev {
+  width: 1106px;
+  height: 53px;
+  position: absolute;
+  top: 22px;
+  left: 60px;
+}
+.container header .header_dev .logo {
+  width: 107.82px;
+  height: 28.56px;
+  cursor: pointer;
+  position: absolute;
+  top: 34px;
+  left: 169px;
+}
+.container header .header_dev .abaut {
+  width: 46px;
+  height: 25px;
+  color: #939CAA;
+  position: absolute;
+  top: 36px;
+  left: 335px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  font-family: bold;
+  transition: 0.5s;
+}
+.container header .header_dev .abaut:hover {
+  color: #000000;
+  cursor: pointer;
+}
+.container header .header_dev .loc {
+  width: 74px;
+  height: 25px;
+  top: 36px;
+  left: 413px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #939CAA;
+  font-family: bold;
+  transition: 0.5s;
+}
+.container header .header_dev .loc:hover {
+  color: #000000;
+  cursor: pointer;
+}
+.container header .header_dev .car {
+  width: 65px;
+  height: 25px;
+  left: 184px;
+  position: absolute;
+  top: 36px;
+  left: 519px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #939CAA;
+  transition: 0.5s;
+  font-family: bold;
+}
+.container header .header_dev .car:hover {
+  color: #000000;
+  cursor: pointer;
+}
+.container header .header_dev .bt > button {
+  width: 180px;
+  height: 53px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  position: absolute;
+  color: white;
+  top: 22px;
+  left: 888px;
+  border: 2px solid #FCB72B;
+  background-color: #FCB72B;
+  font-family: bold;
+  transition: 0.5s;
+}
+.container header .header_dev .bt > button:hover {
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+}
+.container main {
+  width: 1440px;
+  position: relative;
+  top: 46px;
+}
+.container main .main_img {
+  width: 1440px;
+  position: absolute;
+  height: 650px;
+}
+.container main .main_tex {
+  width: 600px;
+  height: 112px;
+  top: 249px;
+  left: 165px;
+  position: absolute;
+  color: #FFFFFF;
+  font-family: bold;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+}
+.container main .main_tex2 {
+  width: 405px;
+  height: 100px;
+  position: absolute;
+  top: 401px;
+  left: 260px;
+  font-size: 15px;
+  color: white;
+  font-family: lexn;
+  font-weight: 400;
+  line-height: 25px;
+}
+.container main .tex_chiziq1 {
+  width: 203px;
+  height: 15px;
+  top: 450px;
+  border: 15px;
+  position: absolute;
+  background: #FCB72B;
+}
+.container main .tex_chiziq2 > img {
+  width: 447px;
+  height: 138px;
+  position: absolute;
+  top: 445px;
+  left: 705px;
+  border: 15px;
+}
+.container main button {
+  width: 180px;
+  height: 53px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  position: absolute;
+  color: white;
+  top: 545px;
+  left: 260px;
+  border: 2px solid #FCB72B;
+  background-color: #FCB72B;
+  font-family: bold;
+  transition: 0.5s;
+}
+.container main button:hover {
+  width: 180px;
+  height: 53px;
+  border: 2px solid #FCB72B;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container main .div {
+  width: 1275px;
+  height: 291px;
+  top: -88px;
+  position: absolute;
+}
+.container main .div .img1 {
+  width: 974px;
+  height: 10px;
+  position: absolute;
+  top: 954px;
+}
+.container main .div .img2 {
+  width: 38.38px;
+  height: 47.97px;
+  position: absolute;
+  top: 910px;
+  left: 194.01px;
+}
+.container main .div .img3 {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 906px;
+  left: 545px;
+}
+.container main .div .img4 {
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  top: 906px;
+  left: 925px;
+}
+.container main .div .teks {
+  width: 350px;
+  height: 28px;
+  top: 1042px;
+  left: 165px;
+  position: absolute;
+  color: #495567;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  font-family: bold;
+}
+.container main .div .teks2 {
+  width: 350px;
+  height: 100px;
+  top: 1097px;
+  left: 165px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 25px;
+  font-family: lexn;
+  color: #939CAA;
+}
+.container main .div .teks3 {
+  width: 350px;
+  height: 28px;
+  top: 1042px;
+  left: 545px;
+  position: absolute;
+  color: #495567;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: bold;
+  line-height: 28px;
+}
+.container main .div .teks4 {
+  width: 350px;
+  height: 100px;
+  top: 1097px;
+  left: 545px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 25px;
+  color: #939CAA;
+  font-family: lexn;
+}
+.container main .div .teks5 {
+  width: 350px;
+  height: 28px;
+  top: 1042px;
+  left: 925px;
+  position: absolute;
+  color: #495567;
+  font-family: bold;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.container main .div .teks6 {
+  width: 350px;
+  height: 100px;
+  top: 1097px;
+  left: 925px;
+  position: absolute;
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 25px;
+  font-family: lexn;
+  color: #939CAA;
+}
+.container main .div .easy {
+  width: 475px;
+  height: 96px;
+  top: 1463px;
+  left: 165px;
+  position: absolute;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #495567;
+  font-family: bold;
+}
+.container main .div .easy2 {
+  width: 445px;
+  height: 100px;
+  top: 1583px;
+  left: 165px;
+  position: absolute;
+  color: #939CAA;
+  font-family: lexn;
+  font-size: 15px;
+  font-weight: 350;
+  line-height: 25px;
+}
+.container main .div .easy-img {
+  width: 1079px;
+  height: 445px;
+  position: absolute;
+  top: 1397px;
+  left: 705px;
+}
+.container main .div .rasm {
+  width: 800px;
+  height: 445px;
+  position: absolute;
+  background-color: #ffffff;
+  top: 1397px;
+  left: 1470px;
+}/*# sourceMappingURL=main.css.map */
